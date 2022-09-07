@@ -1,0 +1,130 @@
+
+@media (prefers-color-scheme: dark)
+{
+    a
+    {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    body {
+        background-color: rgb(43, 47, 51);
+    }
+
+    nav {
+        border-radius: 12px;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    .card {
+        background-color: rgba(33, 37, 41, 1);
+        border-width: 2px;
+        border-color: rgb(53,193, 241);
+        color: #ffffff;
+        border-radius: 12px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .card-body-secondary {
+        overflow: auto;
+        max-height: 100px;
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        outline: 2px solid rgb(53,193, 241);
+        border-radius: 12px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: rgb(40, 40, 40);
+        border-radius: 12px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(53,193, 241);
+        border-radius: 12px;
+    }
+}
+
+@media (prefers-color-scheme: light)
+{
+    .bg-dark
+    {
+        background-color: #f2e7c3;
+    }
+
+    a
+    {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    body {
+        background-color: rgb(255,255,255);
+    }
+
+    nav {
+        border-radius: 12px;
+
+    }
+
+
+    /* Modify the background color */
+    .navbar-custom {
+
+        background-color: rgb(124,134,144);
+    }
+
+
+    .card {
+        background-color: rgb(255,255,255);
+        border-width: 2px;
+        border-color: rgb(53,193, 241);
+        border-radius: 12px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .card-body-secondary {
+        overflow: auto;
+        max-height: 200px;
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: rgb(53,193, 241);
+        border-radius: 12px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: rgb(40, 40, 40);
+        border-radius: 12px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(53,193, 241);
+        border-radius: 12px;
+    }
+
+}
+
+
+.card-footer-image
+{
+    height: 75px;
+}
